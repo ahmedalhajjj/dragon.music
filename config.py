@@ -17,12 +17,12 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
-
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "dragon963")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "uxxx_u")
+START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/d96eeef8355a5b4695778.jpg")
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $ ").split())
 OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
