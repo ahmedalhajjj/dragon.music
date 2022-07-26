@@ -18,12 +18,12 @@
      "API_ID": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "19399491"
+            "value": "8964162"
         },
      "API_HASH": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+            "value": "57fd71da68029890610ade3b62017472"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
